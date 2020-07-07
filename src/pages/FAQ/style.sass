@@ -7,6 +7,7 @@
   font-family: MalloryBold
 
 .accordion__item + .accordion__item
+  
   border: none !important
   @include responsive($screen: mobile)
     margin-bottom: 10px
@@ -21,7 +22,6 @@
 .accordion__button
   &:focus
     outline: none
-
   border: none !important
   background-color: #f4f4f4
   color: #444
@@ -30,10 +30,11 @@
   width: 100%
   text-align: left
   font-family: MalloryBold
-  margin-bottom: 10px
+  margin-top: 10px
   @include responsive($screen: mobile)
     font-size: 14px
     line-height: 1.57
+    
   @include responsive($screen: tablet)
     font-size: 14px
   @include responsive($screen: desktop)
@@ -45,26 +46,36 @@
 
   &:before
     display: inline-block
-    content: '✚'
-    height: 10px
-    width: 10px
-    margin-right: 12px
-    font-weight: bold
+    content: '+'
+    height: 12px
+    width: 12px
+    margin-right: 20px
+    margin-left: 11px
+    font-size: 20px
+    @include responsive($screen: mobile)
+      font-size: 15px
+      margin-right: 8px
+      margin-left: 2px
 
   &[aria-expanded='true']::before, &[aria-selected='true']::before
-    transform: rotate(45deg)
-
+   content: 'x'
 .accordion__panel
   border: none
   padding: 20px
   animation: fadein 0.35s ease-out
+  background-color: #f4f4f4
+  margin-bottom: 10px
   @include responsive($screen: mobile)
+    font-size: 14px
     padding: 0 20px 20px 50px !important
   @include responsive($screen: tablet)
+    font-size: 14px
     padding: 0 106px 10px 32px !important
   @include responsive($screen: desktop)
+    font-size: 14px
     padding: 0 148px 14px 46px !important
   @include responsive($screen: large-desktop)
+    font-size: 16px
     padding: 0 210px 19px 64px !important
 /* --------------------------------------------------
 /* ---------------- Animation part ------------------

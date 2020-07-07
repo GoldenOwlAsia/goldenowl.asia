@@ -17,6 +17,7 @@ import companyLogo from "../../assets/images/GoldenOwlLogo.png";
 import "./index.sass";
 import contentRender from "./mockPanelsRender"
 
+
 const FAQ = () => {
   const isMobile = useMobileWidth();
 
@@ -49,7 +50,7 @@ const FAQ = () => {
     // updateMenuStatusActiveDebounce = setTimeout(updateMenuActiveStatusFunc, 100);
     updateMenuActiveStatusFunc();    
   }
-
+  
   window.onscroll = () => {
     stickyTrigger(scrollDirection);
     stickyTOCTrigger(isMobile);
