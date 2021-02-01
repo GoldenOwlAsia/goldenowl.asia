@@ -27,8 +27,7 @@ export default (
       <Route key={service.key} path={`/services/${service.url}`} />
     ))}
     <Route path="/careers" />
-    <Route path="/careers/details" />
     <Route path="/faq" />
-    <Route path="" />
+    <Route exact path="/activity" />
   </Switch>
 );

@@ -16,67 +16,77 @@ const Loading = ({ pastDelay, error }) => (!pastDelay && error ? <NotFound /> : 
 const About = Loadable({
   loader: () => import('../pages/About'),
   loading: Loading,
-  delay: 1300,
+  delay: 1500,
 });
 const Contact = Loadable({
   loader: () => import('../pages/Contact'),
   loading: Loading,
-  delay: 1300,
+  delay: 1500,
 });
 const Services = Loadable({
   loader: () => import('../pages/Services'),
   loading: Loading,
-  delay: 1300,
+  delay: 1500,
 });
 const ServicesSubPage = Loadable({
   loader: () => import('../pages/ServicesSubPage'),
   loading: Loading,
-  delay: 1300,
+  delay: 1500,
 });
 const Technology = Loadable({
   loader: () => import('../pages/Technology'),
   loading: Loading,
-  delay: 1300,
+  delay: 1500,
 });
 const PortfolioSubPage = Loadable({
   loader: () => import('../pages/PortfolioSubPage'),
   loading: Loading,
-  delay: 1300,
+  delay: 1500,
 });
 const Testimonials = Loadable({
   loader: () => import('../pages/Testimonials'),
   loading: Loading,
-  delay: 1300,
+  delay: 1500,
 });
 const Portfolio = Loadable({
   loader: () => import('../pages/Portfolio'),
   loading: Loading,
-  delay: 1300,
+  delay: 1500,
 });
 const Blog = Loadable({
   loader: () => import('../pages/Blog'),
   loading: Loading,
-  delay: 1300,
+  delay: 1500,
 });
 const BlogDetails = Loadable({
   loader: () => import('../pages/BlogDetails'),
   loading: Loading,
-  delay: 1300,
+  delay: 1500,
 });
 const Career = Loadable({
   loader: () => import('../pages/Career'),
   loading: Loading,
-  delay: 1300,
+  delay: 1500,
 });
 const CareerDetails = Loadable({
   loader: () => import('../pages/CareerDetails'),
   loading: Loading,
-  delay: 1300,
+  delay: 1500,
 });
 const FAQ = Loadable({
   loader: () => import('../pages/FAQ'),
   loading: Loading,
-  delay: 1300,
+  delay: 1500,
+});
+const Activity = Loadable({
+  loader: () => import('../pages/Activity'),
+  loading: Loading,
+  delay: 1500,
+});
+const ActivityDetails = Loadable({
+  loader: () => import('../pages/ActivityDetails'),
+  loading: Loading,
+  delay: 1500,
 });
 
 const AppRoutes = () => {
@@ -117,6 +127,8 @@ const AppRoutes = () => {
           <Route exact path="/careers" component={Career} />
           <Route path="/careers/details" component={CareerDetails} />
           <Route exact path="/faq" component={FAQ} />
+          <Route exact path="/activity" component={Activity} />
+          <Route path="/activity/details" component={ActivityDetails} />
           <Route path="*" component={NotFound} />
         </Switch>
       </CSSTransition>

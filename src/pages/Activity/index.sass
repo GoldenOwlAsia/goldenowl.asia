@@ -1,0 +1,80 @@
+@import 'styles/variables'
+@import 'styles/mixins'
+
+.activity
+  header, .welcome, .breadcrumb, .fixed-breadcrumb
+    background-color: $white
+    margin-bottom: 0 !important
+
+  &__content
+    @include responsive($screen: mobile)
+      padding-bottom: 50px
+    @include responsive($screen: tablet)
+      padding-bottom: 80px
+    @include responsive($screen: desktop)
+      padding-bottom: 110px
+    @include responsive($screen: large-desktop)
+      padding-bottom: 150px
+
+  &__intro-wrapper
+    @include responsive($screen: tablet)
+      padding-left: 56px
+    @include responsive($screen: desktop)
+      padding-left: 75px
+    @include responsive($screen: large-desktop)
+      padding-left: 105px
+
+  &__header
+    @include responsive($screen: mobile)
+      margin-top: 30px
+      font-size: 28px
+    @include responsive($screen: tablet)
+      margin-top: 40px
+      font-size: 26px
+    @include responsive($screen: desktop)
+      margin-top: 56px
+      font-size: 36px
+    @include responsive($screen: large-desktop)
+      margin-top: 80px
+      font-size: 50px
+
+  &__introduction
+    width: calc((715/1135) * 100%)
+    line-height: 1.54
+    @include responsive($screen: mobile)
+      width: 100%
+      margin-top: 10px
+      margin-bottom: 30px
+    @include responsive($screen: tablet)
+      margin-top: 16px
+      margin-bottom: 40px
+      font-size: 16px
+    @include responsive($screen: desktop)
+      margin-top: 16px
+      margin-bottom: 56px
+      font-size: 20px
+    @include responsive($screen: large-desktop)
+      margin-top: 20px
+      margin-bottom: 80px
+      font-size: 26px
+
+  &__topics
+    display: grid
+    grid-template-columns: repeat(2, minmax(0, 1fr))
+    @include responsive($screen: mobile)
+      grid-template-columns: repeat(1, minmax(0, 1fr))
+      grid-row-gap: 20px
+    @include responsive($screen: tablet)
+      grid-row-gap: 30px
+      grid-column-gap: 20px
+    @include responsive($screen: desktop)
+      grid-row-gap: 40px
+      grid-column-gap: 30px
+    @include responsive($screen: large-desktop)
+      grid-row-gap: 60px
+      grid-column-gap: 40px
+
+    .topic
+      grid-column: span 1 / span 1
+      padding-top: 105%
+      background-color: $yellow
