@@ -3,7 +3,6 @@ import React, { useEffect, useState, createRef } from 'react';
 import InfiniteScroll from 'react-infinite-scroll-component';
 import { Link } from 'react-router-dom';
 import Helmet from 'react-helmet';
-import parse from 'html-react-parser';
 import format from 'date-fns/format';
 import compareDesc from 'date-fns/compareDesc';
 
@@ -17,7 +16,6 @@ import Search from './components/Search/index';
 import LoadingScreen from '../../components/LoadingScreen';
 
 import readTimeCalculator from '../../utils/readTimeCalculator';
-import replaceAllString from '../../utils/replaceAllString';
 import aosItemDirection from '../../utils/aosItemDirection';
 import stickyTrigger from '../../utils/stickyTrigger';
 import useScrollDirection from '../../utils/hooks/useScrollDirection';
@@ -343,38 +341,7 @@ const Blog = () => {
                       <h4>{blog.attributes.title}</h4>
                     </Link>
                     <div className="blog-content">
-                      {parse(
-                        replaceAllString(blog.attributes.content, {
-                          '<div>': '<p>',
-                          '</div>': '</p>',
-                          '<del>': '<em>',
-                          '</del>': '</em>',
-                          '<h1>': '<em>',
-                          '</h1>': '</em>',
-                          '<h2>': '<em>',
-                          '</h2>': '</em>',
-                          '<h3>': '<em>',
-                          '</h3>': '</em>',
-                          '<h4>': '<em>',
-                          '</h4>': '</em>',
-                          '<h5>': '<em>',
-                          '</h5>': '</em>',
-                          '<h6>': '<em>',
-                          '</h6>': '</em>',
-                          '<blockquote>': '<em>',
-                          '</blockquote>': '</em>',
-                          '<pre>': '<em>',
-                          '</pre>': '</em>',
-                          '<ol>': '<em>',
-                          '</ol>': '</em>',
-                          '<li>': '<em>',
-                          '</li>': '</em>',
-                          '<ul>': '<em>',
-                          '</ul>': '</em>',
-                          '<strong>': '<em>',
-                          '</strong>': '</em>',
-                        }),
-                      )}
+                      {blog.attributes.meta_description}
                     </div>
                   </div>
                 </div>
@@ -423,38 +390,7 @@ const Blog = () => {
                       </h4>
                     </Link>
                     <div className="blog-content">
-                      {parse(
-                        replaceAllString(blog.attributes.content, {
-                          '<div>': '<p>',
-                          '</div>': '</p>',
-                          '<del>': '<em>',
-                          '</del>': '</em>',
-                          '<h1>': '<em>',
-                          '</h1>': '</em>',
-                          '<h2>': '<em>',
-                          '</h2>': '</em>',
-                          '<h3>': '<em>',
-                          '</h3>': '</em>',
-                          '<h4>': '<em>',
-                          '</h4>': '</em>',
-                          '<h5>': '<em>',
-                          '</h5>': '</em>',
-                          '<h6>': '<em>',
-                          '</h6>': '</em>',
-                          '<blockquote>': '<em>',
-                          '</blockquote>': '</em>',
-                          '<pre>': '<em>',
-                          '</pre>': '</em>',
-                          '<ol>': '<em>',
-                          '</ol>': '</em>',
-                          '<li>': '<em>',
-                          '</li>': '</em>',
-                          '<ul>': '<em>',
-                          '</ul>': '</em>',
-                          '<strong>': '<em>',
-                          '</strong>': '</em>',
-                        }),
-                      )}
+                      {blog.attributes.meta_description}
                     </div>
                   </div>
                 </div>
@@ -503,38 +439,7 @@ const Blog = () => {
                         </h4>
                       </Link>
                       <div className="blog-content medium-item-content">
-                        {parse(
-                          replaceAllString(blog.attributes.content, {
-                            '<div>': '<p>',
-                            '</div>': '</p>',
-                            '<del>': '<em>',
-                            '</del>': '</em>',
-                            '<h1>': '<em>',
-                            '</h1>': '</em>',
-                            '<h2>': '<em>',
-                            '</h2>': '</em>',
-                            '<h3>': '<em>',
-                            '</h3>': '</em>',
-                            '<h4>': '<em>',
-                            '</h4>': '</em>',
-                            '<h5>': '<em>',
-                            '</h5>': '</em>',
-                            '<h6>': '<em>',
-                            '</h6>': '</em>',
-                            '<blockquote>': '<em>',
-                            '</blockquote>': '</em>',
-                            '<pre>': '<em>',
-                            '</pre>': '</em>',
-                            '<ol>': '<em>',
-                            '</ol>': '</em>',
-                            '<li>': '<em>',
-                            '</li>': '</em>',
-                            '<ul>': '<em>',
-                            '</ul>': '</em>',
-                            '<strong>': '<em>',
-                            '</strong>': '</em>',
-                          }),
-                        )}
+                        {blog.attributes.meta_description}
                       </div>
                     </div>
                   </div>
