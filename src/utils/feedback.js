@@ -1,7 +1,6 @@
 /* eslint-disable  max-len */
 
 import JonatanLindstrom from '../assets/images/feedback/JonatanLindstrom.png';
-import jacobThomas from '../assets/images/feedback/JacobThomas.png';
 import ericFitzgerald from '../assets/images/feedback/EricFitzgerald.png';
 import antony from '../assets/images/feedback/Antony.png';
 import emilyY from '../assets/images/feedback/EmilyY.png';
@@ -19,12 +18,6 @@ const feedback = [
     project: 'Co-founder & CTO at BiiB',
     url: sky,
     content: 'Golden Owl Consulting was able to fix the sports IT firm’s backend server problems within three months. Their other tasks have also been completed on schedule. The client commends the quality of their work and their ability to communicate well.',
-  },
-  {
-    name: 'Jacob Thomas',
-    project: 'Director at Delegate Connect',
-    url: jacobThomas,
-    content: 'Golden Owl is a very reliable partner. They became like an extension of our business and never felt like a vendor.',
   },
   {
     name: 'Eric Fitzgerald',
