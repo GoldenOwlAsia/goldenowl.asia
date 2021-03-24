@@ -177,11 +177,6 @@ import referralCandy2 from '../assets/images/portfolio/optimized_portfolio/Refer
 import referralCandy3 from '../assets/images/portfolio/optimized_portfolio/Referralcandy_3_optimized.png';
 import referralCandy4 from '../assets/images/portfolio/optimized_portfolio/Referralcandy_4_optimized.png';
 import referralCandyCover from '../assets/images/portfolio/optimized_portfolio/Referralcandy_Cover_optimized.png';
-import techsauce1 from '../assets/images/portfolio/optimized_portfolio/Techsauce_1_optimized.png';
-import techsauce2 from '../assets/images/portfolio/optimized_portfolio/Techsauce_2_optimized.png';
-import techsauce3 from '../assets/images/portfolio/optimized_portfolio/Techsauce_3_optimized.png';
-import techsauce4 from '../assets/images/portfolio/optimized_portfolio/Techsauce_4_optimized.png';
-import techsauceCover from '../assets/images/portfolio/optimized_portfolio/Techsauce_Cover_optimized.png';
 import theLuxeNomad1 from '../assets/images/portfolio/optimized_portfolio/TheLuxeNomad_1_optimized.png';
 import theLuxeNomad2 from '../assets/images/portfolio/optimized_portfolio/TheLuxeNomad_2_optimized.png';
 import theLuxeNomad3 from '../assets/images/portfolio/optimized_portfolio/TheLuxeNomad_3_optimized.png';
@@ -375,11 +370,6 @@ export default {
   referralCandy3,
   referralCandy4,
   referralCandyCover,
-  techsauce1,
-  techsauce2,
-  techsauce3,
-  techsauce4,
-  techsauceCover,
   theLuxeNomad1,
   theLuxeNomad2,
   theLuxeNomad3,

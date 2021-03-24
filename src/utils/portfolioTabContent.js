@@ -43,7 +43,6 @@ import thumb18 from '../assets/images/portfolio/connectajob.png';
 import thumb19 from '../assets/images/portfolio/corpzap.png';
 import thumb20 from '../assets/images/portfolio/luxify.png';
 import thumb21 from '../assets/images/portfolio/glife.png';
-import thumb22 from '../assets/images/portfolio/techsauce.png';
 import thumb23 from '../assets/images/portfolio/publicinsight.png';
 import thumb24 from '../assets/images/portfolio/opentheapp.png';
 
@@ -333,12 +332,6 @@ export const webTab = [
     isWhite: false,
     img: img20,
     url: 'luxify',
-  },
-  {
-    content: 'Techsauce – Just relax, now you have this to manage your events',
-    isWhite: true,
-    img: img22,
-    url: 'techsauce',
   },
   {
     content: 'Public Insight – You deserve the most pure news',
