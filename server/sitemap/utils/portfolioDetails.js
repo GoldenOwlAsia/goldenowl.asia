@@ -59,9 +59,6 @@ export default {
   'Public Insight': {
     url: 'public-insight',
   },
-  Techsauce: {
-    url: 'techsauce',
-  },
   'Open The App': {
     url: 'open-the-app',
   },

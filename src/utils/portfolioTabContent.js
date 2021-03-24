@@ -191,13 +191,6 @@ export default [
     url: 'glife',
   },
   {
-    content: 'Techsauce – Just relax, now you have this to manage your events',
-    isWhite: true,
-    img: img22,
-    thumb: thumb22,
-    url: 'techsauce',
-  },
-  {
     content: 'Public Insight – You deserve the most pure news',
     isWhite: false,
     img: img23,

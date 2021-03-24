@@ -718,30 +718,6 @@ export default {
         'Knowing the importance of official information, Golden Owl has tried our best to bring the best product to clients. We are proud to be the one who joined and built this platform.',
     },
   },
-  Techsauce: {
-    cover: pImages.techsauceCover,
-    url: 'techsauce',
-    overview:
-      'Techsauce  is a platform for companies to manage their own technology events with many types of attendances: Speakers, Exhibitors, Workshops, Volunteers, etc. This would help those companies to manage and organise all stuff relating to the whole event.',
-    techs: ['Ruby on Rails', 'React Native', 'Mapwize', 'PostgreSQL'],
-    img: [
-      { src: pImages.techsauce1, col: 12 },
-      { src: pImages.techsauce2, col: 12 },
-      { src: pImages.techsauce3, col: 12 },
-      { src: pImages.techsauce4, col: 12 },
-    ],
-    brief: {
-      title: (
-        <h3 className="portfolio-details__item-title">
-          Manage everything better
-          <br />
-          thanks to Techsauce
-        </h3>
-      ),
-      description:
-        'Techsauce is a harmonious blend of web platform, mobile apps, onsite hardware and software, specially designed battle-tested processes, and world class people.',
-    },
-  },
   'Open The App': {
     cover: pImages.openCover,
     url: 'open-the-app',
