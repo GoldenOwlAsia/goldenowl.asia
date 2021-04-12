@@ -37,7 +37,7 @@ const SlideCarousel = ({ ...props }) => {
       additionalTransfrom={0}
       arrows
       autoPlay
-      autoPlaySpeed={10000}
+      autoPlaySpeed={30000}
       centerMode={false}
       className=""
       dotListClass=""
@@ -77,7 +77,7 @@ const SlideCarousel = ({ ...props }) => {
       additionalTransfrom={0}
       arrows
       autoPlay
-      autoPlaySpeed={5000}
+      autoPlaySpeed={15000}
       centerMode={false}
       className=""
       dotListClass=""
