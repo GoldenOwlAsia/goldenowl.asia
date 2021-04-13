@@ -18,7 +18,6 @@ import img18 from '../assets/images/portfolio/18.png';
 import img19 from '../assets/images/portfolio/19.png';
 import img20 from '../assets/images/portfolio/20.png';
 import img21 from '../assets/images/portfolio/21.png';
-import img22 from '../assets/images/portfolio/22.png';
 import img23 from '../assets/images/portfolio/23.png';
 import img24 from '../assets/images/portfolio/24.png';
 

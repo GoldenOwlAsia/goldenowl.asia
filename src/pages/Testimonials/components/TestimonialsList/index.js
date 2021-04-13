@@ -26,7 +26,7 @@ const TestimonialsList = () => {
           <p>{item.details}</p>
           <img className="logo" src={item.companyLogo} alt="logo" />
           <p className="title">{item.title}</p>
-          <Link to={`/portfolio/${item.url}`}>
+          <Link to={`/portfolio/${item.url ? item.url : ''}`}>
             <p className="case-study d-flex align-items-center">
               VIEW CASE STUDY
               <div className="case-study__arrow" />
@@ -53,9 +53,9 @@ const TestimonialsList = () => {
             {item.main}
           </h4>
           <p>{item.details}</p>
-          <img className="logo" src={item.companyLogo} alt="logo" />
+          {/* <img className="logo" src={item.companyLogo} alt="logo" /> */}
           <p className="title">{item.title}</p>
-          <Link to={`/portfolio/${item.url}`}>
+          <Link to={`/portfolio/${item.url ? item.url : ''}`}>
             <p className="case-study d-flex align-items-center">
               VIEW CASE STUDY
               <div className="case-study__arrow" />
@@ -75,9 +75,9 @@ const TestimonialsList = () => {
             {item.main}
           </h4>
           <p>{item.details}</p>
-          <img className="logo" src={item.companyLogo} alt="logo" />
+          {/* <img className="logo" src={item.companyLogo} alt="logo" /> */}
           <p className="title">{item.title}</p>
-          <Link to={`/portfolio/${item.url}`}>
+          <Link to={`/portfolio/${item.url ? item.url : ''}`}>
             <p className="case-study d-flex align-items-center">
               VIEW CASE STUDY
               <div className="case-study__arrow" />
