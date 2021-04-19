@@ -1,0 +1,55 @@
+@import 'styles/variables'
+@import 'styles/mixins'
+
+.container
+    overflow: hidden
+.header-group
+    display: flex
+    border-bottom: 1px solid #585858
+    justify-content: center
+    margin-bottom: 50px
+
+#slide-container 
+    display: flex
+    width: 300%
+    box-sizing: border-box
+    transition: transform 2s ease-in-out 0s
+
+.first, 
+.second,
+.third,
+    padding: 0px 18px
+    width: 100%
+
+.move-to-first
+    transform: translateX(0%)
+
+.move-to-second
+    transform: translateX(-33.33%)
+
+.move-to-third
+    transform: translateX(-66.66%)
+
+.tech-stack-img
+    margin-bottom: 40px
+
+.tab
+    cursor: pointer
+    display: inline-block
+    width: fit-content
+    font-size: 18px
+    color: #676767
+
+    @include responsive($screen: mobile)
+        padding: 0 8.5px 10px 8.5px
+        margin: 0px 30px
+    @include responsive($screen: tablet)
+        padding: 0 25px 15px 25px
+    @include responsive($screen: desktop)
+        padding: 0 35px 21px 35px
+    @include responsive($screen: large-desktop)
+        padding: 0 50px 20px 50px
+
+.selected
+    border-bottom: 1px solid $yellow
+    color: white
