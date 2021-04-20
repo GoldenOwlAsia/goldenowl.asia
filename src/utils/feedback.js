@@ -12,7 +12,7 @@ const feedback = [
     name: 'Jonatan Lindström',
     project: 'Full-stack Engineer at Collabs',
     url: JonatanLindstrom,
-    content: 'Golden Own Consulting Ltd is keen on submitting deliverables on time in order to help the client meet their project goals within the timeframe. They work hard and exhibit skills that ease up the overall process for both parties. The client commends them for their promptness and coding skills.',
+    content: 'Golden Owl Consulting Ltd is keen on submitting deliverables on time in order to help the client meet their project goals within the timeframe. They work hard and exhibit skills that ease up the overall process for both parties. The client commends them for their promptness and coding skills.',
   },
   {
     name: 'Sky Pay',
@@ -30,7 +30,7 @@ const feedback = [
     name: 'Auston Lende',
     project: 'Senior Market Planning Manager at Starbucks',
     url: auston,
-    content: 'I have been working with GoldenOwl, for a year now and I am very impressed with the capability and professionalism of each person I’ve worked with',
+    content: 'I have been working with Golden Owl, for a year now and I am very impressed with the capability and professionalism of each person I’ve worked with',
   },
   {
     name: 'Nigel Pua',

@@ -16,7 +16,7 @@ export default {
   'Auston Lende': {
     avatar: auston,
     main: 'Impressed with the capability and professionalism of each person',
-    details: '"I have been working with GoldenOwl, for a year now and I am very impressed with the capability and professionalism of each person I’ve worked with.”',
+    details: '"I have been working with Golden Owl, for a year now and I am very impressed with the capability and professionalism of each person I’ve worked with.”',
     // companyLogo: refferalCandy,
     title: 'SENIOR MARKET PLANNING MANAGER AT STARBUCKS',
     url: 'open-the-app',
