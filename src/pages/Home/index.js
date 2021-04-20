@@ -30,6 +30,7 @@ const IntroVideo = Loadable({ loader: () => import('./components/IntroVideo'), l
 const Contact = Loadable({ loader: () => import('../../components/Contact'), loading: Loading, delay: 1300 });
 const Partners = Loadable({ loader: () => import('../../components/Partners'), loading: Loading, delay: 1300 });
 const Footer = Loadable({ loader: () => import('../../components/Footer'), loading: Loading, delay: 1300 });
+const OurArchievements = Loadable({ loader: () => import('./components/OurArchievements'), loading: Loading, delay: 1300 });
 
 const Home = () => {
   const scrollDirection = useScrollDirection();
@@ -56,6 +57,7 @@ const Home = () => {
         <Missions />
         <Introduction />
         <CompanyQuality />
+        <OurArchievements />
         <IntroVideo />
         <Archieves />
         <Feedback />
