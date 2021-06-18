@@ -20,6 +20,7 @@ import img20 from '../assets/images/portfolio/20.png';
 import img21 from '../assets/images/portfolio/21.png';
 import img23 from '../assets/images/portfolio/23.png';
 import img24 from '../assets/images/portfolio/24.png';
+import img25 from '../assets/images/portfolio/25.png';
 
 // thumbnails
 import thumb1 from '../assets/images/portfolio/refcandy.png';
@@ -44,7 +45,6 @@ import thumb20 from '../assets/images/portfolio/luxify.png';
 import thumb21 from '../assets/images/portfolio/glife.png';
 import thumb23 from '../assets/images/portfolio/publicinsight.png';
 import thumb24 from '../assets/images/portfolio/opentheapp.png';
-
 
 export default [
   {
@@ -202,6 +202,12 @@ export default [
     thumb: thumb24,
     url: 'open-the-app',
   },
+  {
+    content: 'Pace – Online payment gateway provider',
+    isWhite: false,
+    img: img25,
+    url: 'pace',
+  },
 ];
 
 export const mobileTab = [
@@ -237,6 +243,12 @@ export const mobileTab = [
     isWhite: true,
     img: img24,
     url: 'open-the-app',
+  },
+  {
+    content: 'Pace – Online payment gateway provider',
+    isWhite: false,
+    img: img25,
+    url: 'pace',
   },
 ];
 
@@ -337,5 +349,11 @@ export const webTab = [
     isWhite: false,
     img: img23,
     url: 'public-insight',
+  },
+  {
+    content: 'Pace – Online payment gateway provider',
+    isWhite: false,
+    img: img25,
+    url: 'pace',
   },
 ];

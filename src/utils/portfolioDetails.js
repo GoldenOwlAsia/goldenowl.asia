@@ -800,4 +800,37 @@ export default {
       'A search engine that can filter out destinations that match the requirements of viewers on rates, staying duration, city/area, number of people and bedrooms.',
     ],
   },
+  Pace: {
+    cover: pImages.paceCover,
+    url: 'pace',
+    overview:
+      "Pace is an online payment method used in the e-commerce industry. It's a payment extension for popular e-commerce platforms like WooCommerce and OpenCart. The business concept has two parts: a merchant portal where the admin may oversee merchant transactions and a payment gateway or plugin for e-commerce platforms. Golden Owl assisted them in developing and maintaining their page, which allows users to manage all of their payment transactions and admins to increase conversions and basket sizes for their business, utilizing React Native, ReactJS, and PHP.",
+    customer: {
+      country: 'Singapore',
+      program: 'Our top engineers specializing in ReactJS, PHP, React Native',
+      timeline: '2020 - Present',
+      industry: 'E-commerce',
+      website: 'https://www.pacenow.co/',
+    },
+    techs: 'We use React Native, PHP and ReactJS for this backend system. React JS  and React Native are the most popular tools for creating responsive UI, which ensures that the website looks good on all sorts of browsers, phones, computers, and tablets. Meanwhile, using PHP will also simplify and stimulate the website development speed as well as prevent any security attacks.',
+    img: [
+      { src: pImages.pace1, col: 12 },
+      { src: pImages.pace2, col: 12 },
+      'features',
+      { src: pImages.pace3, col: 12 },
+    ],
+    features: [
+      '3 interest-free instalments purchase for users.',
+      'Upfront paid for business spending without sacrificing anything else.',
+      'Easy integration getting Pace implemented on your retail outlet or website',
+    ],
+    challenges: [
+      'The merchant portal had to be built in such a way that the administrator could monitor all of the transactions made by the merchant.',
+      'A payment gateway or e-commerce platform plugin was highly requested.',
+      'Encountered several bugs/errors while releasing to production site due to some conflict with other available plugins on that site.',
+    ],
+    result: [
+      'Pace has been smoothly running for more than a year with several merchant stores connected on the site. It has supported many big e-commerce platforms like WooCommerce and OpenCart in terms of online payment. With the ability to help leverage their user’s shopping experience, as a result, checkouts have increased and purchase friction has decreased for retailers who have included Pace as an e-payment option.',
+    ],
+  },
 };
