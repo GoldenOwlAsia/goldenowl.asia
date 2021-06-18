@@ -189,6 +189,10 @@ import twp2 from '../assets/images/portfolio/optimized_portfolio/twp_2_optimized
 import twp3 from '../assets/images/portfolio/optimized_portfolio/twp_3_optimized.png';
 import twp4 from '../assets/images/portfolio/optimized_portfolio/twp_4_optimized.png';
 import twpCover from '../assets/images/portfolio/optimized_portfolio/twp_Cover_optimized.png';
+import paceCover from '../assets/images/portfolio/optimized_portfolio/paceCover.png';
+import pace1 from '../assets/images/portfolio/optimized_portfolio/pace_1.png';
+import pace2 from '../assets/images/portfolio/optimized_portfolio/pace_2.png';
+import pace3 from '../assets/images/portfolio/optimized_portfolio/pace_3.png';
 
 export default {
   bid4Skill1,
@@ -382,4 +386,8 @@ export default {
   twp3,
   twp4,
   twpCover,
+  paceCover,
+  pace1,
+  pace2,
+  pace3,
 };
