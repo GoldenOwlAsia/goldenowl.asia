@@ -30,8 +30,10 @@ const PortfolioSubPage = ({ content }) => {
   const randomProjectUrl = randomProject.url;
   const randomProjectThumb = randomProject.thumb;
 
-  const nextProjectBg = {
+  const nextProjectBg = randomProjectThumb ? {
     backgroundImage: `url(${randomProjectThumb})`,
+  } : {
+    backgroundColor: '#000',
   };
 
   return (

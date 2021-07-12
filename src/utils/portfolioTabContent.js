@@ -21,6 +21,7 @@ import img21 from '../assets/images/portfolio/21.png';
 import img23 from '../assets/images/portfolio/23.png';
 import img24 from '../assets/images/portfolio/24.png';
 import img25 from '../assets/images/portfolio/25.png';
+import img26 from '../assets/images/portfolio/26.png';
 
 // thumbnails
 import thumb1 from '../assets/images/portfolio/refcandy.png';
@@ -208,6 +209,12 @@ export default [
     img: img25,
     url: 'pace',
   },
+  {
+    content: 'BIIB - Run tracking app/website',
+    isWhite: true,
+    img: img26,
+    url: 'biib',
+  },
 ];
 
 export const mobileTab = [
@@ -249,6 +256,12 @@ export const mobileTab = [
     isWhite: false,
     img: img25,
     url: 'pace',
+  },
+  {
+    content: 'BIIB - Run tracking app/website',
+    isWhite: true,
+    img: img26,
+    url: 'biib',
   },
 ];
 
@@ -355,5 +368,11 @@ export const webTab = [
     isWhite: false,
     img: img25,
     url: 'pace',
+  },
+  {
+    content: 'BIIB - Run tracking app/website',
+    isWhite: true,
+    img: img26,
+    url: 'biib',
   },
 ];

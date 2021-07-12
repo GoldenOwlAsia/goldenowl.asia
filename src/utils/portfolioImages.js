@@ -193,6 +193,10 @@ import paceCover from '../assets/images/portfolio/optimized_portfolio/paceCover.
 import pace1 from '../assets/images/portfolio/optimized_portfolio/pace_1.png';
 import pace2 from '../assets/images/portfolio/optimized_portfolio/pace_2.png';
 import pace3 from '../assets/images/portfolio/optimized_portfolio/pace_3.png';
+import biibCover from '../assets/images/portfolio/optimized_portfolio/biibCover.png';
+import biib1 from '../assets/images/portfolio/optimized_portfolio/biib1.png';
+import biib2 from '../assets/images/portfolio/optimized_portfolio/biib2.png';
+import biib3 from '../assets/images/portfolio/optimized_portfolio/biib3.png';
 
 export default {
   bid4Skill1,
@@ -390,4 +394,8 @@ export default {
   pace1,
   pace2,
   pace3,
+  biibCover,
+  biib1,
+  biib2,
+  biib3,
 };

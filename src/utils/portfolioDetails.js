@@ -833,4 +833,37 @@ export default {
       'Pace has been smoothly running for more than a year with several merchant stores connected on the site. It has supported many big e-commerce platforms like WooCommerce and OpenCart in terms of online payment. With the ability to help leverage their user’s shopping experience, as a result, checkouts have increased and purchase friction has decreased for retailers who have included Pace as an e-payment option.',
     ],
   },
+  BIIB: {
+    cover: pImages.biibCover,
+    url: 'biib',
+    overview:
+      'BIIB is a run tracking app that allows you to measure your miles and pace when you go for a run. We have virtual events where participants can sign up and then start running based on the event’s rules. With BIIB, you can totally be able to receive medals, shirts, and other prizes if you achieve your running goal. This is a way of promoting and encouraging our members to achieve their running objectives, develop camaraderie, and give back to the local running community.',
+    customer: {
+      country: 'Singapore',
+      program: 'Our top engineers specializing in Ruby on Rails',
+      timeline: '2018 - Present',
+      industry: 'Fitness',
+      website: 'https://getbiib.com/',
+    },
+    techs: ['Ruby on Rails'],
+    img: [
+      { src: pImages.biib1, col: 12 },
+      { src: pImages.biib2, col: 12 },
+      'features',
+      { src: pImages.biib3, col: 12 },
+    ],
+    features: [
+      'BIIB is both a timer and an app that track and set rules on how runners can run',
+      'A digital arena where people complete the challenges and receive awards based on the rules priorly set',
+      'BIIB’s game innovations feature that makes running a team sport.',
+      'The creation of inclusive and connected running communities.',
+    ],
+    challenges: [
+      'The complicated logic for Back-end developers.',
+    ],
+    result: [
+      'By the end of 2020, BIIB has signed some major businesses as partners for several of their events, including Under Armour, Universal Music, Samsung, and Media Prima.',
+      'In comparison to the previous year, BIIB saw a 25% rise in revenue and doubled their user base. The BIIB platform currently has 41,000 active users.',
+    ],
+  },
 };
